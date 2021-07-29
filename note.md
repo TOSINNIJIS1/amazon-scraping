@@ -1,0 +1,1 @@
+# add ?api_key=0488625dd07c945af1d84ddc5f0bc175 at the end of each endpoint

@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 
 // const apiKey = "0488625dd07c945af1d84ddc5f0bc175";
 
-const generateApiKey = (apiKey) => `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
+const generateApiKey = (apiKey) => (`http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`);
 
 
 app.use(express.json());
